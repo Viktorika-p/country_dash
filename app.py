@@ -7,6 +7,8 @@ import pandas as pd
 
 app = dash.Dash(__name__)
 
+server = app.server
+
 parties_data = {
     "Партія": ["Socialdemokratiet", "Venstre", "Moderaterne", "Socialistisk Folkeparti", "Danskdemokraterne", "Liberal Alliance", "Det Konservative Folkeparti", "Enhedslisten - De Rød-Grønne", "Radikale Venstre", "Nye Borgerlige", "Alternativet", "Dansk Folkeparti", "Frie Grønne", "KD - Kristendemokraterne"],
     "Відсоток голосів": [27.5, 13.32, 9.2, 8.3, 8.1, 7.8, 5.5, 5.1, 3.7, 3.6, 3.3, 2.6, 0.9, 0.5]
