@@ -89,3 +89,6 @@ app.layout = html.Div([
         )
     ], className='section')
 ], className='container')
+
+if __name__ == '__main__':
+    app.run_server(debug=True)
